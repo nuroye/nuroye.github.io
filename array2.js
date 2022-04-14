@@ -18,21 +18,20 @@ var database=[
         status:"active"
     }
 ]
-var login=
-{
- prompt("Please Enter Username");
- prompt("Please Enter Password")
-prompt("Please Enter Status")
-}
 
 database.push(login)
 
 /*3. Accept username, password & status from the prompt 
 and add it to the database array */
 
-var cool1 = prompt("Please Enter Username");
-var cool2 = prompt("Please Enter Password");
-var cool3 = prompt("Please Enter Status");
+var login=
+{
+ prompt("Please Enter Username");
+ prompt("Please Enter Password")
+prompt("Please Enter Status")
+}
+database.push(login)
+
 
 function signin(username,password){
 if (cool1 === database[0].username && cool2 === database[0].password){
