@@ -11,12 +11,20 @@ console.log(nuf);
 /* 2. Create an array which contains the object you have made 
 above and name the array "database".*/
 
-
-    var login=
-       {username: "nuroye",
+var database=[
+    {
+        username: "nuroye",
         password: "nuftech2022",
         status:"active"
+    }
+]
+var login=
+{
+ prompt("Please Enter Username");
+ prompt("Please Enter Password")
+prompt("Please Enter Status")
 }
+
 database.push(login)
 
 /*3. Accept username, password & status from the prompt 
